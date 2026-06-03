@@ -518,3 +518,25 @@ main,.site-footer{position:relative;z-index:2;}
   .stats-inner{grid-template-columns:1fr;}
   .stat + .stat{border-top:1px solid rgba(255,255,255,.08);padding-top:1.1rem;}
 }
+
+/* ---------- Language toggle (EN / 中文) ---------- */
+.header-actions{display:flex;align-items:center;gap:.7rem;}
+.lang-toggle{
+  background:none;border:1px solid var(--rule);border-radius:999px;cursor:pointer;
+  font-family:var(--serif);font-size:.82rem;letter-spacing:.03em;color:var(--gray);
+  padding:.3rem .75rem;display:inline-flex;align-items:center;gap:.4rem;line-height:1;white-space:nowrap;
+  transition:border-color .2s var(--ease),box-shadow .2s var(--ease);
+}
+.lang-toggle:hover{border-color:var(--scarlet);box-shadow:0 6px 16px -10px rgba(204,0,0,.5);}
+.lang-opt{color:var(--gray-light);transition:color .2s var(--ease);}
+.lang-opt.active{color:var(--scarlet);font-weight:600;}
+.lang-sep{color:var(--rule);}
+:lang(zh) body,
+html[lang="zh-Hans"] body{
+  /* let the system Chinese serif lead, keeping the editorial feel */
+  font-family:'Newsreader',"Songti SC","STSong","SimSun","Noto Serif SC",'Iowan Old Style',Georgia,serif;
+}
+@media (max-width:560px){
+  .lang-toggle{font-size:.78rem;padding:.26rem .6rem;}
+  .header-actions{gap:.5rem;}
+}
