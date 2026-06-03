@@ -176,6 +176,8 @@
      stay in English (standard academic-record convention).
      ========================================================= */
   var ZH = {
+    'brand.name': '严婷婷', 'hero.name': '严婷婷', 'footer.name': '严婷婷',
+
     'nav.about': '关于', 'nav.research': '研究', 'nav.publications': '论文发表',
     'nav.teaching': '教学', 'nav.service': '学术服务', 'nav.awards': '荣誉',
     'nav.personal': '个人', 'nav.contact': '联系',
@@ -248,7 +250,7 @@
 
     'sec.contact': '联系方式',
     'footer.affil': '供应链管理 Jerry S. Rawls 讲席教授<br />科研与对外合作副院长<br />罗尔斯商学院，德克萨斯理工大学<br />美国德克萨斯州拉伯克市',
-    'footer.copyright': '© <span id="year">2026</span> Tingting Yan. 保留所有权利。'
+    'footer.copyright': '© <span id="year">2026</span> 严婷婷 Tingting Yan. 保留所有权利。'
   };
 
   // Capture the authored English baseline for every translatable element.
