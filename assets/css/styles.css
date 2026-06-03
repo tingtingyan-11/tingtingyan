@@ -277,7 +277,7 @@ em{font-style:italic;}
 .award-body{color:var(--ink-soft);}
 
 /* ---------- Personal ---------- */
-.personal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;}
+.personal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.6rem;}
 .personal h3{
   font-family:var(--display);font-weight:500;font-size:1.3rem;margin:0 0 .5rem;color:var(--ink);
   position:relative;padding-top:1rem;
