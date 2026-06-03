@@ -1,0 +1,12 @@
+# Local backups (not part of the published site)
+_backup_before_site_*/
+_backup_site_*/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Playwright test output
+.playwright-mcp/
