@@ -189,6 +189,15 @@
     'cta.cv': '下载简历（PDF）', 'cta.cvshort': '下载简历',
     'edu.label': '教育背景',
 
+    'apt.label': '学术任职',
+    'apt.chair': '<strong>供应链管理 Jerry S. Rawls 讲席教授</strong> — Rawls College of Business, Texas Tech University',
+    'apt.dean': '<strong>科研与对外合作副院长</strong> — Rawls College of Business, Texas Tech University',
+    'apt.audencia': '<strong>国际特聘教师</strong> — Audencia Business School, Nantes, France',
+    'apt.prof': '<strong>供应链管理 Jerry S. Rawls 教授</strong> — Rawls College of Business, Texas Tech University',
+    'apt.fullprof': '<strong>教授</strong> — Mike Ilitch School of Business, Wayne State University<br /><span class="muted">Charles H. Gershenson 杰出教职研究员，2021–23。</span>',
+    'apt.assocprof': '<strong>副教授</strong> — Mike Ilitch School of Business, Wayne State University',
+    'apt.asstprof': '<strong>助理教授</strong> — Mike Ilitch School of Business, Wayne State University',
+
     'stat.refereed': '同行评审期刊论文',
     'stat.ftutd': 'FT50 与 UTD24 期刊论文',
     'stat.scm': '顶级实证供应链期刊论文',

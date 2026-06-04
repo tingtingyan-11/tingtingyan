@@ -120,6 +120,7 @@ em{font-style:italic;}
 }
 .edu-list{list-style:none;margin:0;padding:0;display:grid;gap:1.1rem;}
 .edu-list li{display:grid;grid-template-columns:84px 1fr;gap:1.2rem;align-items:baseline;}
+.appointments .edu-list li{grid-template-columns:96px 1fr;}
 .edu-year{font-family:var(--display);font-size:1.15rem;color:var(--scarlet);font-weight:500;}
 .edu-body strong{font-weight:600;}
 
@@ -337,6 +338,7 @@ em{font-style:italic;}
   .hero{padding-top:3rem;}
   .award-list li{grid-template-columns:64px 1fr;gap:.9rem;}
   .edu-list li{grid-template-columns:60px 1fr;gap:.8rem;}
+  .appointments .edu-list li{grid-template-columns:68px 1fr;}
 }
 
 /* =========================================================
