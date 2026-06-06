@@ -202,6 +202,10 @@
     'stat.ftutd': 'FT50 与 UTD24 期刊论文',
     'stat.scm': '顶级实证供应链期刊论文',
     'stat.editorial': '现任编辑职务',
+    'hero.cites': '次被引',
+    'hero.h': 'h 指数',
+    'hero.i10': 'i10 指数',
+    'hero.asof': '截至 2026 年 6 月',
 
     'sec.research': '研究',
     'research.theme': '“企业如何通过运用其供应网络、并深入理解供应商的延伸网络，更好地实现可持续创新？”',
@@ -223,6 +227,7 @@
     'legend.ft': '<span class="tag ft">FT50</span> 金融时报 50 强期刊',
     'legend.utd': '<span class="tag utd">UTD24</span> UT Dallas 24 强期刊',
     'legend.scm': '<span class="tag scm">SCM List</span> 顶级实证供应链期刊 — JOM, JSCM, JBL, Decision Sciences',
+    'cite.note': '重点展示论文的引用次数来自 <a href="https://scholar.google.com/citations?user=pcxTCZkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>，截至 2026 年 6 月。',
     'feat.ftutd': '重点展示 — 发表于 FT50 与 UTD24 期刊',
     'feat.scm': '重点展示 — 顶级实证供应链期刊（<a href="http://www.scmlist.com/" target="_blank" rel="noopener">SCM Journal List</a>）',
     'grp.refereed': '同行评审期刊论文',
