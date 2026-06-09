@@ -186,7 +186,6 @@
     'hero.titles': '供应链管理 Jerry S. Rawls 讲席教授<br />科研与对外合作副院长<br /><span class="muted">市场营销与供应链管理系</span>',
     'hero.bio': '我研究企业如何通过运用其供应网络、并理解供应商的延伸网络来实现可持续创新。我的研究涵盖供应商创新、供应网络结构、行为运营管理，以及跨组织新产品开发项目的管理——综合运用实地实验、问卷调查、二手面板数据与仿真方法。',
     'link.email': '邮箱', 'link.ttu': 'TTU 主页',
-    'cta.cv': '下载简历（PDF）', 'cta.cvshort': '下载简历',
     'edu.label': '教育背景',
 
     'apt.label': '学术任职',
@@ -223,7 +222,7 @@
     'topic.6.p': '通过实地实验与面板数据研究服务化、数字化韧性，以及生成式人工智能赋能的价值共创。',
 
     'sec.publications': '论文发表',
-    'pub.lead': '我在 <strong>金融时报 50 强（FT50）</strong>与 <strong>UT Dallas 24 强</strong>期刊上发表的论文优先展示，其后是我在<strong>顶级实证供应链管理期刊</strong>（<a href="http://www.scmlist.com/" target="_blank" rel="noopener">SCM Journal List</a>）上的论文。完整记录——40 余篇期刊论文、社论、教学案例与在研项目——可在下方展开。',
+    'pub.lead': '我在 <strong>金融时报 50 强（FT50）</strong>与 <strong>UT Dallas 24 强</strong>期刊上发表的论文优先展示，其后是我在<strong>顶级实证供应链管理期刊</strong>（<a href="http://www.scmlist.com/" target="_blank" rel="noopener">SCM Journal List</a>）上的论文。完整记录——40 余篇期刊论文、社论与教学案例——可在下方展开。',
     'legend.ft': '<span class="tag ft">FT50</span> 金融时报 50 强期刊',
     'legend.utd': '<span class="tag utd">UTD24</span> UT Dallas 24 强期刊',
     'legend.scm': '<span class="tag scm">SCM List</span> 顶级实证供应链期刊 — JOM, JSCM, JBL, Decision Sciences',
@@ -233,8 +232,6 @@
     'grp.refereed': '同行评审期刊论文',
     'grp.editorials': '期刊社论',
     'grp.cases': '教学案例',
-    'grp.review': '在审论文',
-    'grp.wip': '在研项目',
     'grp.proceedings': '会议论文',
     'grp.other': '其他出版物与资助项目',
 
