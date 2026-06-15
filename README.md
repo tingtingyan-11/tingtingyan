@@ -53,3 +53,28 @@ university web directory via the method IT provides (SFTP or a web uploader).
 `index.html` becomes the landing page.
 
 No server-side code is required for any option.
+
+## Automated Google Scholar citation updates
+
+The citation numbers and the "as of <month>" date stamps are refreshed
+automatically once a month by a GitHub Action, so they no longer have to be
+edited by hand.
+
+- **Workflow:** `.github/workflows/update-citations.yml` runs on the 1st of each
+  month (and can be run on demand from the repo's **Actions** tab via
+  *Run workflow*).
+- **Script:** `scripts/update_citations.py` pulls the latest figures from Google
+  Scholar (via the SerpApi Google Scholar Author API), updates the three hero
+  totals and every per-article "Cited by N" count in `index.html`, bumps the
+  English and Chinese date stamps, and commits the change. Because this repo is
+  connected to Vercel, the commit auto-deploys to production.
+- **Setup (one time):** create a free SerpApi account, then add the API key as a
+  repository secret named `SERPAPI_KEY` (**Settings -> Secrets and variables ->
+  Actions -> New repository secret**). The free tier (100 searches/month) easily
+  covers a monthly run.
+- **Manual / dry run:** `SERPAPI_KEY=... python scripts/update_citations.py --check`
+  reports what would change without writing any files.
+
+The script edits text via narrowly scoped patterns, so publication years are
+never altered and the commit diff stays minimal. Articles it cannot match to a
+Scholar record are reported and left untouched (never guessed or removed).

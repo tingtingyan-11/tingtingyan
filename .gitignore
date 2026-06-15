@@ -10,3 +10,7 @@ desktop.ini
 
 # Playwright test output
 .playwright-mcp/
+
+# Python bytecode (from scripts/)
+__pycache__/
+*.pyc
